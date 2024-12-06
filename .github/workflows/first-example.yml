@@ -9,6 +9,9 @@ jobs:
             - name: Welcome message
               run: echo "My first Girhub Actions Job"
 
+            - name: checkout respository files
+              uses: actions/checkout@v4
+
             - name: List files
               run: ls
 
