@@ -3,6 +3,7 @@ name: Generate ASCII Work
 on: 
   schedule:
     - cron: "*/1 * * * *"
+  workflow_dispatch:
 
 jobs:
     build_job_1:
