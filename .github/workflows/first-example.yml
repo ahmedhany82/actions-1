@@ -11,9 +11,9 @@ jobs:
 
             - name: List and Read file
               run: |
-                echo "My first Girhub Actions Job"
+                echo "My first Github Actions Job"
                 ls -ltra
-                cat README.me
+                cat README.md
             
             - name: Install Cowsay 
               run: sudo apt-get install cowsay -y
